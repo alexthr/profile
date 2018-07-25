@@ -48,6 +48,7 @@ a:hover {
   background-color: white;
   padding: 20px;
   margin: 20px;
+  box-shadow: 5px 5px 5px rgb(180, 180, 180);
 }
 
 #sidebar {
@@ -55,7 +56,7 @@ a:hover {
   left: 0px;
   border-radius: 5px;
   background-color: rgba(200, 200, 200, 0.5);
-  box-shadow: gray;
+  box-shadow: 5px 5px 5px rgb(180, 180, 180);
   top: 10px;
   bottom: 10px;
   width: 200px;

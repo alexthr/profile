@@ -31,6 +31,7 @@
       </div>
       <div class="card">
         <h3>Some of the people I know</h3>
+        <h6><em>Click the images to hear their best lines</em></h6>
         <table>
           <tbody>
             <tr>
@@ -41,8 +42,9 @@
               <td>Walter Sobchak</td>
             </tr>
             <tr>
-              <td><img class="friends-img" src="./images/donny.jpg"></td>
-              <td><strong>Shut the fuck up Donny!</strong></td>
+              <audio id="donny" src="./media/I Am The Walrus.mp3"></audio>
+              <td><a onclick="document.getElementById('donny').play();"><img class="friends-img" src="./images/donny.jpg"></td>
+              <td><strong>Shut the fuck up Donny!</strong></a></td>
             </tr>
             <tr>
               <audio id="jesus" src="./media/Nobody_Fucks_with_Jesus.mp3"></audio>
